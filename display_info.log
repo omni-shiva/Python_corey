@@ -1,8 +1,4 @@
 INFO:root:Ran with args: ('John', 25), and kwargs: {}
 INFO:root:Ran with args: ('John', 25), and kwargs: {}
 INFO:root:Ran with args: ('Hank', 30), and kwargs: {}
-INFO:root:Ran with args: ('Hank', 30), and kwargs: {}
-INFO:root:Ran with args: ('Hank', 30), and kwargs: {}
-INFO:root:Ran with args: ('2dHank', 30), and kwargs: {}
-INFO:root:Ran with args: ('3dHank', 30), and kwargs: {}
-INFO:root:Ran with args: ('withwrap', 30), and kwargs: {}
+
