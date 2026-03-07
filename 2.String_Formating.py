@@ -1,3 +1,4 @@
+# https://www.youtube.com/watch?v=vTX3IwquFkc
 person = {'name':'Jenn','age':23}
 
 #Conventional String Formating
@@ -24,7 +25,8 @@ print(sentence)
 #We can also directly call method in place holder, like we are calling directionary methods/LIST and attributes.
 person = {'name':'Jenn','age':23}
 sentence = 'My name is {0[name]} and I am {0[age]} years old.'.format(person) #**NOTE**###
-print(sentence)
+
+print(sentence) 
 
 #Calling attribute like above.
 

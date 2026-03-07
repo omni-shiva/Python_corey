@@ -1,3 +1,4 @@
+
 num = 3.14
 """Python has a built in function called type 
 where we can see the datatype of an obeject..

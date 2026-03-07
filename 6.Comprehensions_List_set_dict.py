@@ -1,3 +1,5 @@
+
+# https://www.youtube.com/watch?v=3dt4OGnU5sM
 #List Comprehension in python
 '''
 It is an easier and more readable way to create a list.
