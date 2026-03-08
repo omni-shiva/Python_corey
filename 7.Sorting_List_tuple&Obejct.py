@@ -1,5 +1,6 @@
 # https://www.youtube.com/watch?v=D3JvDWO-BY4
-# .sort() method will
+# .sort() method will sort the list in place and return None,
+#  while sorted() function will return a new sorted list from the elements of any iterable.
 
 li = [9,1,8,2,7,3,6,4,5]
 s_li = sorted(li,reverse=True) # So here still its not changing the orignal, its setting  up new list.

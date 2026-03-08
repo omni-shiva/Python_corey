@@ -1,3 +1,5 @@
+#https://www.youtube.com/watch?v=DZwmZ8Usvnk
+
 if True:
     print('Conditional was True') # it will only be true , iff if is true
     
