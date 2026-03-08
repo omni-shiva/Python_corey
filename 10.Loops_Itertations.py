@@ -1,3 +1,5 @@
+#https://www.youtube.com/watch?v=6iF8Xb7Z3wQ
+
 nums = [1,2,3,4,5]
 
 
