@@ -1,3 +1,4 @@
+#https://www.youtube.com/watch?v=QVdf0LgmICw
 '''
 LEGB
 Local, Enclosing, Global, Built-in

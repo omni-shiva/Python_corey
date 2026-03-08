@@ -1,3 +1,5 @@
+#https://www.youtube.com/watch?v=kr0mpwqttM0
+
 #First-Class Functions:
 "In programming, a language is said to have First-Class Functions if it treats Functions as First-Class-Citizens."
 
