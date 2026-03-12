@@ -3,6 +3,9 @@
 #################################################
 """'''***********  LIST  ******************'''"""
 #################################################
+from operator import add
+
+
 courses = ['History','Math','Physics','CompSci']
 
 print(courses)
@@ -72,11 +75,13 @@ nums
 # Sorted function we can use.
 """Whatif we want reverse without alterning the orginal list"""
 courses = ['History','Math','Physics','CompSci']
-sorted_courses =  sorted(courses) # using function and storing is the best way to use the list , if we dont waana change the orignal one.
+sorted_courses =  sorted(courses) # using function and storing is the best way to use the list
+# , if we dont waana change the orignal one.
 print(sorted_courses)
 
 "List of functions"
 nums = [1,5,6,3,4]
+print(sorted(nums,reverse=True))
 
 print(min(nums))
 print(max(nums))
@@ -114,6 +119,64 @@ courses_str = ','.join(courses) #it will give comma sep values , withtout list i
 new_list = courses_str.split(',')
 print(courses_str)
 print(new_list)
+
+#Nested Lists - Lists containing other lists
+"""A nested list is a list that contains other lists as elements"""
+
+# Creating a nested list (matrix/2D list)
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(matrix)
+
+# Accessing nested list elements - use multiple indices
+print(matrix[0])        # [1, 2, 3] - entire first row
+print(matrix[0][1])     # 2 - second element of first row
+print(matrix[2][2])     # 9 - last element
+
+# Modifying nested list elements
+matrix[1][1] = 99
+print(matrix)
+
+# Adding a row to nested list
+matrix.append([10, 11, 12])
+print(matrix)
+
+# Looping through nested lists - nested for loops
+print("\nLooping through nested list:")
+for row in matrix:
+    print('row', row)
+    for value in row:
+        print('value', value)
+    print()
+
+# Using enumerate with nested lists
+print("\nUsing enumerate:")
+for i, row in enumerate(matrix):
+    for j, value in enumerate(row):
+        print(f"matrix[{i}][{j}] = {value}")
+
+# Real-world example - Student grades (students x subjects)
+grades = [
+    [90, 85, 88],   # student 1 grades
+    [75, 80, 92],   # student 2 grades
+    [88, 91, 87]    # student 3 grades
+]
+print(f"\nStudent 2, Subject 3 grade: {grades[1][2]}")  # 92
+
+# Real-world example - Game board
+board = [
+    ['X', 'O', 'X'],
+    ['O', 'X', 'O'],
+    ['X', 'O', 'X']
+]
+print(f"\nBoard position [1][1]: {board[1][1]}")  # X
+
+# 3D nested lists (less common but useful)
+cube = [
+    [[1, 2], [3, 4]],
+    [[5, 6], [7, 8]]
+]
+print(f"\nCube [1][0][1]: {cube[1][0][1]}")  # 6
+
 
 '''list end'''
 
@@ -166,6 +229,7 @@ tuple_1[0] # We can access value and loop through , but we cant append, remove o
 
 cs_courses =  {'History','Math','Physics','CompSci','Math'}
 print(cs_courses)
+
 
 #Use of set mostily is to check if a value belong to that set called 'Membership Test'. 
 # And 2nd mostly used to remove duplicates.
@@ -223,4 +287,11 @@ empty_tuples = tuple()
 
 empty_set = {} #This isnt right! It's a empty dict.
 empty_set = set() #only use built-in.
+
+a = [2,3,7,7,7,8]
+score_unique = set(a)
+print(score_unique)
+score_list = sorted(score_unique,reverse = True)
+print(score_list)
+print(score_list[1])
 
